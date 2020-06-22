@@ -1,0 +1,193 @@
+header[dir] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style>i.fa{
+    display:inline-flex;
+    align-items:center;
+}
+
+header[dir] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style>i.fa::before{
+    color:#000000 !important;
+    font-size: 28px;
+    position: static;
+}
+
+header[dir="ltr"] app-sidenav 
+.side-nav ul.collapsible > 
+li.menu-item > a.menu-title-style>i.fa{
+    margin-right: 32px;
+}
+
+/***************************/
+
+header[dir] app-sidenav .side-nav 
+ul.collapsible >li.menu-item{
+    /* margin-top:15px !important; */
+    /* margin-bottom:15px !important; */
+}
+
+header[dir] app-sidenav .side-nav ul.collapsible >
+ li.menu-item > a.menu-title-style{
+     color:#000000 !important;
+     font-size:15px;
+     display:inline-flex;
+     align-items:center;
+     text-align: center;
+     text-decoration: none;
+     font-family: Helvetica, Arial, sans-serif;
+ }
+
+header[dir] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style.active,
+header[dir] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style:hover{
+    background-color: #f8f9fb !important;
+}
+
+header[dir="ltr"] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style::before{
+    -webkit-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+    /*width: 4px;*/
+}
+
+header[dir="ltr"] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style.active::before,
+
+header[dir="ltr"] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style:hover::before{
+    background-color: #e60028;
+}
+
+@media screen and (min-width: 1200px){
+    header[dir="ltr"] app-sidenav .side-nav 
+    ul.collapsible>li.menu-item > 
+    a.menu-title-style.active::before,
+
+    header[dir="ltr"] app-sidenav .side-nav 
+    ul.collapsible>li.menu-item > 
+    a.menu-title-style:hover::before{
+        width: 7px;
+    }
+}
+@media screen and (max-width: 1199px){
+    header[dir="ltr"] app-sidenav .side-nav 
+    ul.collapsible>li.menu-item > 
+    a.menu-title-style.active::before,
+
+    header[dir="ltr"] app-sidenav .side-nav 
+    ul.collapsible>li.menu-item > 
+    a.menu-title-style:hover::before{
+        width: 4px;
+    }
+}
+
+header[dir="ltr"] app-sidenav .side-nav 
+ul.collapsible>li.menu-item > 
+a.menu-title-style{
+    padding-left:10px !important;
+    width: 100%;
+    word-break: break-word;
+    white-space: normal;
+    height: auto;
+    min-height: 66px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header[dir] mdb-sidenav > ul#slide-out > links > li:first-child{
+    height:100%;
+    max-height: 100%;
+}
+
+header[dir] mdb-sidenav > ul#slide-out 
+> links > li:first-child > ul#slide-out{
+    height:100%;
+    max-height:100%;
+}
+
+
+    
+/*start scrollbar*/
+header[dir] mdb-sidenav > ul#slide-out 
+> links > li:first-child > ul#slide-out::-webkit-scrollbar{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+header[dir] mdb-sidenav > ul#slide-out 
+> links > li:first-child > ul#slide-out::-webkit-scrollbar-thumb{
+    background-color: #7c7c7c;
+}
+
+/*end scrollbar*/
+
+header[dir] mdb-sidenav > ul#slide-out{
+    box-shadow: 0 24px 44px 0 rgba(0, 0, 0, .34);
+}
+
+@media screen and  (min-width: 768px){
+    header[dir] mdb-sidenav > ul#slide-out{
+        box-shadow: 3px 0 10px 0 rgba(0, 0, 0, .15)
+    }
+}
+
+/*start navbar*/
+header[dir] app-navbar nav.navbar{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 0px !important;
+    min-height:64px
+}
+@media screen and (min-width: 1200px){
+    header[dir] app-navbar nav.navbar{
+        min-height:78px;
+    }
+}
+.side-nav .logo-wrapper img{
+    padding:0px;
+}
+
+.side-nav .logo-wrapper{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #ebebeb;
+}
+header[dir] .user-profil:empty + .nav-item a{
+    background-color: #131313;
+    font-size: 15px;
+    min-width: 75px;
+    line-height: 18px;
+    padding: 10px;
+    font-weight: normal;
+    color: #fff !important;
+    font-family: "Helvetica", "Arial", sans-serif;
+    display: inline-flex;
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color .3s ease-in-out;
+    font-size:0px;
+}
+header[dir] .user-profil:empty + .nav-item a::before{
+    content:'Je me connecte';
+    font-size: 15px;
+}
+header[dir] .user-profil:empty + .nav-item a i::before {
+    color: #fff !important;
+}
+.double-nav .button-collapse{
+    z-index: 9;
+}

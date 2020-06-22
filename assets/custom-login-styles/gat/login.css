@@ -1,0 +1,314 @@
+@media screen and (min-width:1025px){
+        	app-login .login100-form{
+            width: 100% !important;
+            
+        }
+
+        main[dir="ltr"] app-login .login100-form::before {
+            content: "Accéder à  mon Espace Client ";
+            position: absolute;
+            top: -30px;
+            font-family: Roboto !important;
+            font-weight: 500 !important;
+            font-size: 24px;
+            color: #333;
+            line-height: 1.2;
+            text-align: center;
+            width: 100%;
+            visibility: hidden;
+        }
+
+        main[dir="rtl"] app-login .login100-form::before {
+            content: " الوصول إلى منطقة العملاء الخاصة بي";
+            position: absolute;
+            top: -30px;
+            font-family: Roboto !important;
+            font-weight: 500 !important;
+            font-size: 24px;
+            color: #333;
+            line-height: 1.2;
+            text-align: center;
+            width: 100%;
+        }
+
+        app-login .login100-form > 
+        div:first-child{
+            display: flex;
+            width: 100%;
+            flex-direction: row-reverse;
+            align-items: center;
+            /* margin-top: 68px; */
+            justify-content: space-between;
+        }
+
+        app-login .login100-form > .register-position-btn{
+                position: absolute !important;
+                width: 50% !important;
+                /* margin-top: -46px; */
+                bottom: calc(50% - 24px + -65px) !important;
+                left: 0;
+        }
+
+
+        app-login .login100-form > 
+        div:first-child > *{
+            width: 50%;
+        }
+
+        app-login .login100-form > 
+        div:first-child > div{
+            padding-top:30px !important;
+            /* padding-top: 16px !important; */
+            /* height: 100%; */
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* justify-content: center; */
+        }
+
+        main[dir='ltr'] app-login .login100-form > 
+        div:first-child > div{
+            margin-right: 17px !important;
+        }
+        main[dir='rtl'] app-login .login100-form > 
+        div:first-child > div{
+            margin-left: 4px !important;
+        }
+
+        app-login .login100-form > 
+        div:first-child > form{
+            position:relative;
+            padding: 65px 20px 30px 20px;
+            background: #FCFCFE;
+            border: 1px solid #BEBEC0;
+            box-shadow: inset 0 0 7px 0px #BEBEC0;
+        }
+
+
+        app-login .login100-form > 
+        div:first-child > form input,
+        app-login .login100-form > 
+        div:first-child > form button
+        {
+
+            border-radius: 10px;
+            border: 1px solid #6B90B2;
+        }
+
+        app-login .login100-form > 
+        div:first-child > form input{
+            background: #FFF;
+        }
+
+        main[dir="ltr"] app-login .login100-form > 
+        div:first-child > form::before{
+            content: "J'ai déjà  mon Espace Client";
+            font-family: Roboto !important;
+            font-weight: 400 !important;
+            font-size: 18px;
+            color: #333;
+            line-height: 1.2;
+            text-align: center;
+            width: 100%;
+            left:0;
+            top: 20px;
+            position:absolute;
+        }
+        main[dir="rtl"] app-login .login100-form > 
+        div:first-child > form::before{
+            content: "لدي حسابي الخاص";
+            font-family: Roboto !important;
+            font-weight: 400 !important;
+            font-size: 18px;
+            color: #333;
+            line-height: 1.2;
+            text-align: center;
+            width: 100%;
+            left:0;
+            top: 20px;
+            position:absolute;
+        }
+
+        app-login .login100-form > 
+        div:first-child > form > .login100-form-title,
+        app-login .login100-form > 
+        div:first-child > form >  .login100-form-description{
+            display: none;
+        }
+
+        main[dir="ltr"] app-login .login100-form > 
+        div:first-child::before {
+            content: "Pensez à changer régulièrement votre mot de passe";
+            position: absolute;
+            font-family: Roboto,sans-serif;
+            font-weight: 300;
+            color: #828282;
+            width: 100%;
+            text-align: center;
+            top:10px;
+            visibility: hidden;
+        }
+        main[dir="rtl"] app-login .login100-form > 
+        div:first-child::before {
+            content: "تذكر أن تغير كلمة مرورك بانتظام";
+            position: absolute;
+            font-family: Roboto,sans-serif;
+            font-weight: 300;
+            color: #828282;
+            width: 100%;
+            text-align: center;
+            top:10px;
+        }
+
+        /*app-login > :first-child::before{
+            content: "Accéder à mon Espace Client ";
+             position: absolute;
+             top: 82px; 
+             left: 0px; 
+            display: block;
+            font-family: Roboto !important;
+            font-weight: 500 !important;
+            font-size: 24px;
+            color: #333;
+            line-height: 1.2;
+            text-align: center;
+            width: 100%;
+            margin-top: 58px; 
+            display: none;
+        }*/
+        /*app-login > :first-child::after{
+            content: "Pensez à changer régulièrement votre mot de passe";
+            position: absolute;
+            font-family: Roboto,sans-serif;
+            font-weight: 300;
+            color: #828282;
+            width: 100%;
+            text-align: center;
+            display:block;
+            top: 120px;
+            left: 0;
+            display: none;
+        }*/
+        app-login{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #fefcff;
+                margin-left: 40px;
+                margin-right: 40px;
+                position: relative;
+                padding-top: 46px;
+        }
+        app-login::before{
+            content:' ';
+            background-image: url('data:image/png;base64,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');
+            display: block;
+            height: 46px;
+            width: 366px;
+            position: absolute;
+            top: 0;
+            left: calc(50% - 183px);
+            /* outline: 1px solid red; */
+            background-size: auto;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+        main{
+            height: calc(100% - 115px) !important;
+        }
+
+        .login100-form-btn{
+            width: 60% !important;
+        }
+        .wrap-input100{
+            width: 60% !important;
+            margin-right: auto !important;
+            margin-left: auto !important;
+        }
+
+        }
+
+        app-login > .limiter{
+            height: auto !important;
+        }
+
+        main[dir="ltr"] app-login .login100-form > 
+        div:first-child > div > span{
+            text-align:left;
+        }
+        main[dir="rtl"] app-login .login100-form > 
+        div:first-child > div > span{
+            text-align:right;
+        }
+        .wrap-login100{
+            padding-left:22px !important;
+            padding-right:22px !important;
+        }
+
+
+
+        main{
+            margin-left: 0 !important;
+            padding-left: 20px ;
+            padding-right: 20px ;
+        }
+
+        main[dir="ltr"]{
+            margin-left: 0 !important;
+        }
+        main[dir="rtl"]{
+            margin-right: 0 !important;
+        }
+        main{
+            overflow-y: auto;
+        }
+
+        @media screen and (min-width:1441px){
+            main[dir="ltr"]{
+                padding-left: 240px !important;
+                padding-right: 25px !important;
+            }
+            main[dir="rtl"]{
+                padding-left: 25px !important;
+                padding-right: 240px;
+            }
+        
+            footer[dir="ltr"] {
+                padding-left: 240px !important;
+                padding-right: 0;
+            }
+            footer[dir="rtl"] {
+                padding-right: 240px !important;
+                padding-left: 0;
+            }
+        
+        }
+        @media screen and (max-width:1336px){
+            app-login .login100-form > .register-position-btn{
+            
+                bottom: calc(50% - 24px + -75px) !important;
+        }
+        }
+
+        @media screen and (max-width:1024px){
+        	.wrap-input100 {
+            width: 100% !important;
+        	 margin-right: auto !important;
+            margin-left: auto !important;
+        }
+        .login100-form-btn{
+            width: 100% !important;
+        }
+        }
+        
+        @media screen and (max-width:362px){
+        .input100 {
+            padding: 0 15px 0 60px !important;
+        }
+        }
+
+        @media screen and (max-width:500px){
+        .container-login100 {
+            padding: 0 !important;
+        }
+        }  

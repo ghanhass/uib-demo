@@ -1,0 +1,68 @@
+:root {
+	--color1: #243a51 ; /* Scroll color */
+	--color2: #AB2F52; /* Scroll color */
+	--color3: #009688 ; /* Scroll color */
+} 
+#formio {
+	padding: 20px;
+}
+
+/* Google maps style */
+.mapouter{
+	position:relative;
+	text-align:center;
+	height:600px;
+	width:100%;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:100%;
+	width:1300px;
+}
+#vneuronMap {
+	width: 100%;
+	height: 600px;
+}
+
+/* Recaptcha style */
+#vneuron-recaptcha div:first-child {
+	width: 404px !important; 
+	height: 98px !important;
+}
+#vneuron-recaptcha iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.g-recaptcha {
+	transform:scale(0.77);
+	 -webkit-transform:scale(0.70);
+	 transform-origin:4% 0 ;
+	 -webkit-transform-origin:7% 0;
+}
+
+iframe[title="Test recaptcha"] {
+	width: 500px !important;
+	height: 780px !important;
+}
+
+#rc-imageselect, .grecaptcha {
+	transform:scale(0.77);
+	-webkit-transform:scale(0.77);
+	transform-origin:0 0;-webkit-transform-origin:0 0;
+}
+
+.wizard-scroll-down .progress-indicator-parent {
+	display: none !important;
+}
+.wizard-scroll-down .wizard-nav-wrapper {
+	display: none ;
+}
+
+.wizard-scroll-up .progress-indicator-parent {
+	display: none !important;
+}
+.wizard-scroll-up .wizard-nav-wrapper {
+	display: block ;
+}

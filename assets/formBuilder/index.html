@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/ngFormBuilder-full.css">
+    <link rel="stylesheet" type="text/css" href="styles/formBuilder.demo.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootswatch@3.3.7/yeti/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <title>Extranet Form Builder Demo</title>
+    <style>
+			.alert-alert {
+			    font-size: 15px;
+			    font-weight: 500;
+			    border-radius: 0.5em;
+			}
+			.formbuilder {
+			height: inherit !important;
+			}
+			.formbuilder {
+			height: 600px;
+			}
+			.formcomponents {
+			width: 30%;
+			}
+			.formarea {
+			width: 70%;
+			}
+			.jsonviewer {
+			max-height: 600px;
+			overflow: scroll;
+			}
+			.form-type-select {
+			display: inline-block;
+			width: 100px;
+			height: 28px;
+			vertical-align: top;
+			}
+			.container-fluid {
+			padding-top: 15px;
+			}
+		
+    </style>
+</head>
+<body>
+    <div class="page-content">
+        <div class="container-fluid">
+            <div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="well" style="background-color: #fdfdfd;">
+                            <form-builder form="form"></form-builder>
+                            <div id="container" ng-controller="saveFormBuilderJson"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='scripts/ngFormBuilder-full.js'></script>
+    <script src='scripts/formBuilder.api.js'></script>
+    <script src='scripts/formBuilder.demo.js'></script>
+    <script src='scripts/jquery.js'></script>
+</body>
+</html>

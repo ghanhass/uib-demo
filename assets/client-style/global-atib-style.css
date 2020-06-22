@@ -1,0 +1,284 @@
+html[lang="en"] > body.atib-extranet-style {
+    font-family: "Helvetica" !important;
+    font-weight: 300;
+  }
+  
+  html[lang="ar"] > body.atib-extranet-style {
+      font-family: "Almarai" !important;
+  }
+  
+  body.atib-extranet-style {
+      background-color: #F5F6FA;
+  }
+  
+  /****************************** main sidebar ******************************/
+  body.atib-extranet-style app-sidenav ul.collapsible > li.menu-item a,
+  body.atib-extranet-style app-sidenav ul.collapsible > li.menu-item a i {
+      color: #dadad4;
+  }
+  
+  body.atib-extranet-style app-sidenav ul.collapsible > li.menu-item .number,
+  body.atib-extranet-style app-sidenav ul.collapsible > li.menu-item .number-rtl {
+      display: none;
+  }
+  
+  body.atib-extranet-style app-sidenav ul.collapsible > li.menu-item .collapsible-header {
+      color: #000000;
+      font-weight: bold;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav {
+              background-image: none;
+              background: #FFF;
+              box-shadow: none !important;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav  ul.collapsible > li.menu-item > a.menu-title-style-ltr {
+              padding-left: 50px !important;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav  ul.collapsible > li.menu-item > a.menu-title-style > i.fa {
+              width: 17px !important;
+              height: 17px !important;
+              position: relative;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav  ul.collapsible > li.menu-item > a.menu-title-style > i.fa::before {
+              position: absolute;
+              bottom: 0;
+              right: 0;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav  ul.collapsible > li.menu-item > a.menu-title-style-rtl {
+              padding-right: 50px !important;
+              font-size: 1rem;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav ul.collapsible .fa.icon-rtl {
+              margin-right: 0 !important;
+              margin-left: 13px !important;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav .sidenav-bg:after {
+              background: #FFF !important;
+  }
+  
+  body.atib-extranet-style app-sidenav .side-nav ul.collapsible > li.menu-item > a:hover,
+  body.atib-extranet-style app-sidenav .side-nav ul.collapsible > li.menu-item > a.active {
+              background-color: rgba(255, 255, 255, 0.8) !important;
+              color: #9eeffa !important;
+  }
+  
+  
+  body.atib-extranet-style app-sidenav .side-nav ul.collapsible > li.menu-item > a:hover i::before,
+  body.atib-extranet-style app-sidenav .side-nav ul.collapsible > li.menu-item > a.active i::before {
+                  color: #9eeffa !important;
+  }
+  
+  /****************************** main navbar ******************************/
+  
+  body.atib-extranet-style app-navbar nav.navbar {
+            color: #72726f;
+            background-color:#F5F6FA;
+            box-shadow: none !important;
+  }
+  
+  body.atib-extranet-style app-navbar nav.navbar navlinks a i.fa::before,
+  body.atib-extranet-style app-navbar nav.navbar navlinks a {
+                color: #72726f !important;
+  }
+  
+  body.atib-extranet-style app-navbar nav.navbar:after {
+              content:"";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height: 0;
+              border-top: 1px solid #CAD8FC;
+              z-index: -1;
+  }
+  
+  @media (min-width: 581px) {
+      body.atib-extranet-style app-navbar .navbar-extranet-style {
+                  padding-top: 60px !important;
+      }
+  }
+  
+  @media (max-width: 580px) {
+      body.atib-extranet-style app-navbar .navbar-extranet-style {
+                  padding-top: 30px !important;
+      }
+  }
+  
+  body.atib-extranet-style app-navbar navlinks.navlinks-style ul.nav.navbar-nav > li.nav-item.user-profil div.dropdown > a.nav-link {
+                  content: "";
+                  padding-top: 0 !important;
+  }
+  
+  body.atib-extranet-style app-navbar navlinks.navlinks-style ul.nav.navbar-nav > li.nav-item.user-profil div.dropdown > a.nav-link > div.user-image-container {
+                      height: 36px;
+                      width: 36px;
+                      border-radius: 50%;
+                      border: 2px solid #82D1D4;
+                      padding: 3px;
+                      position: relative;
+                      overflow: hidden;
+                      display: block;
+  }
+  
+  body.atib-extranet-style app-navbar navlinks.navlinks-style ul.nav.navbar-nav > li.nav-item.user-profil div.dropdown > a.nav-link > div.user-image-container > img.user-image {
+                          width: 36px;
+                          height: auto;
+                          cursor: pointer;
+                          overflow: auto;
+                          margin: auto;
+                          position: absolute;
+                          top: 0;
+                          left: 0;
+                          bottom: 0;
+                          display: block;
+  }
+  
+  body.atib-extranet-style app-navbar navlinks.navlinks-style ul.nav.navbar-nav > li.nav-item.user-profil div.dropdown > a.nav-link > span {
+                      display: none;
+  }
+  
+  body.atib-extranet-style app-navbar navlinks.navlinks-style ul.nav.navbar-nav > li.nav-item.user-profil div.dropdown > a.nav-link:after {
+                  display: none;
+  }
+  
+  body.atib-extranet-style mdb-tabset ul.nav.md-tabs {
+            border-bottom: 1px solid rgba(228, 27, 19, 0.8) !important;
+  }
+  
+  body.atib-extranet-style div.card.card-cascade {
+          box-shadow: none;
+          background-color: #F5F6FA;
+  }
+  
+  body.atib-extranet-style div.card.card-cascade > div.card-header {
+          background-color: #F5F6FA !important;
+          box-shadow: none !important;
+          border-bottom: none !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+  }
+  
+  body.atib-extranet-style div.card.card-cascade > div.card-header .h6-responsive {
+              color: #000000;
+              font-size: 1.6rem;
+  }
+  
+  body.atib-extranet-style div.card.card-cascade > div.card-header .h6-responsive i {
+                  display: none !important;
+  }
+  
+  body.atib-extranet-style div.card.card-cascade > div.card-header .page-title-responsive-ltr {
+              text-align: left !important;
+  }
+  
+  body.atib-extranet-style div.card.card-cascade > div.card-header .page-title-responsive-rtl {
+              text-align: right !important;
+  }
+  
+  body.atib-extranet-style div.card.card-cascade > div.card-body {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+  }
+  
+  body.atib-extranet-style .notification-number-color {
+          color: #82D1D4;
+  }
+  
+  
+  /****************************** user-notifications ******************************/
+  
+  body.atib-extranet-style app-user-notifications > div.card > div.card-body > .section .row { padding-top: 0 !important; }
+  body.atib-extranet-style app-user-notifications > div.card > div.card-body > .section .row > .notification { box-shadow: none; }
+  body.atib-extranet-style app-user-notifications > div.card > div.card-body > .section > .row:nth-child(1) > .notification { border-top: 2px solid #2bbbad !important; }
+  body.atib-extranet-style app-user-notifications > div.card > div.card-body > .section > .row:not(:nth-child(1)) > .notification { 
+                  border-top: 1px solid #5891e6 !important;
+                  border-radius: 0 !important;
+   }
+   
+   
+  /****************************** dashboard ******************************/
+  
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section .row { padding-top: 0 !important; }
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section .row > .notification { box-shadow: none; }
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section .row > .notification > div.card-body { padding: 0.2rem 1.25rem 0.2rem 1.25rem !important; }
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section .row > .notification > div.card-body > div.row > div.col-12 { padding-left: 0; }
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section .row > .notification > div.card-body div.label > i { font-size: 1.3rem; }
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section .row > .notification > div.card-body div.notif-title { margin-top: 0.3rem; }
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section .row > .notification > div.card-body div.date { float: right; }
+  
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section > .row:nth-child(1) > .notification { border-top: 3px solid #82D1D4 !important; }
+  body.atib-extranet-style app-dashboard div.card.card-cascade > div.card-body > .section > .row:not(:nth-child(1)) > .notification {
+                  border-top: 1px solid #CAD8FC !important;
+                  border-radius: 0 !important;
+  }
+  
+  /****************************** ag-grid-angular ******************************/
+  
+  body.atib-extranet-style ag-grid-angular { border-radius: 0.25rem !important; }
+  body.atib-extranet-style ag-grid-angular div.ag-layout-normal {
+              border-top: none !important;
+              border: 1px solid #86C8FF;
+              border-radius: 0.25rem;
+  }
+  
+  body.atib-extranet-style ag-grid-angular div.ag-layout-normal div.ag-header {
+              border-top: 2.5px solid #82D1D4;
+              border-radius: 0.25rem;
+              border-bottom: 1px solid #e0e0e0;
+  }
+  
+  body.atib-extranet-style ag-grid-angular div.ag-layout-normal div.ag-header div.ag-header-cell-resize { display: none !important; }
+  
+  body.atib-extranet-style ag-grid-angular div.ag-layout-normal div.ag-header div.ag-header-cell-label {
+              color: #82D1D4 !important;
+              font-size: large !important;
+  }
+  
+  body.atib-extranet-style ag-grid-angular div.ag-layout-normal div.ag-body div.ag-row:hover {
+              background-color: #DAE4FD !important;
+              color: #ffffff;
+  }
+  
+  /****************************** edit-user-menu ******************************/
+  
+  body.atib-extranet-style app-edit-user-menu div.menu-presentation > h5.menu-title {
+              color: #000000;
+              font-weight: bold;
+              font-size: 1.7rem;
+  }
+  
+  body.atib-extranet-style app-edit-user-menu div.row.menu-body-service {
+              margin-left: 0 !important;
+              margin-right: 0 !important;
+  }
+  
+  body.atib-extranet-style app-edit-user-menu div.row.menu-body-service div.separator-style {
+              margin-bottom: 0.7rem;
+  }
+  
+  body.atib-extranet-style app-edit-user-menu div.row.menu-body-service div.separator-style > h5 {
+              font-weight: bold;
+              margin-bottom: 0 !important;
+  }
+  
+  body.atib-extranet-style app-edit-user-menu div.row.menu-body-service div.separator-style > h6 {
+              color: #B7BDCA !important;
+              margin-bottom: 1rem !important;
+  }
+  
+  /****************************** app-footer ******************************/
+  
+  body.atib-extranet-style app-footer footer.page-footer {
+              display: none !important;
+  }
